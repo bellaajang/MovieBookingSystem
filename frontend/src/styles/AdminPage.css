@@ -1,0 +1,47 @@
+/* Admin Page */
+
+.admin-header {
+    color: white;
+}
+
+.admin-page {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 350px;
+    background-color: #282828;
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px auto;
+    position: relative; 
+    padding-top: 10px;
+}
+
+/* Buttons */
+.admin-button {
+    width: 80%;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-button:hover {
+    background-color: #4ccc;
+}
+
+.loading {
+    color:white;
+    text-align: center;
+}
+
+.admin-management button{
+    width: auto;
+    margin-left: 5px;
+    padding: 5px;
+}

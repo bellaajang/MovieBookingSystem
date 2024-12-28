@@ -1,0 +1,141 @@
+/* User Account Page */
+.user-account-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;  /* Keep items at the top */
+    align-items: center;
+    background-color: #282828;
+    width: 600px;
+    border-radius: 10px;
+    padding: 40px;
+    padding-bottom: 60px;
+    min-height: 650px;
+    height: auto;
+}
+
+.user-account-header {
+    color: white;
+}
+
+.user-account-page td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+.user-account-page h4 {
+    color: white;
+    padding-top: 20px;
+}
+
+.user-account-page select-card {
+    color: white;
+}
+
+.user-account-input {
+    margin-bottom: -20px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+}
+
+.user-account-input label {
+    color: white;
+    font-size: 14px;
+}
+
+.user-account-input input {
+    width: 90%;
+    padding: 8px;
+    padding-top: 10px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    margin-right: 170px;
+}
+
+.user-account-input input:hover {
+    border-color: #4ccc;
+    outline: none;
+    cursor: pointer;
+}
+
+.user-account-input input:focus {
+    border-color: #4ccc;
+    outline: none;
+}
+
+.annual-payment {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    height: 240px;
+    width: 660px;
+    background-color: #282828;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding-left: 10px;
+    position: relative;
+    padding: 10px;
+}
+
+/* Buttons */
+.user-buttons {
+    width: 96%;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.user-account-button {
+    width: 45%;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.user-account-button:hover {
+    background-color: #4ccc;
+}
+
+
+.payment-method-list select {
+    width: 96%;
+    padding: 8px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+}
+
+.payment-method-list select:hover {
+    border-color: #4ccc;
+    outline: none;
+}
+
+.payment-method-list select:focus {
+    border-color: #4ccc;
+    outline: none;
+}
+
+.user-account-page button {
+    width: 96%;
+}

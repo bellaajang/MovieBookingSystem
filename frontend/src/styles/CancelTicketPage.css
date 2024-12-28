@@ -1,0 +1,81 @@
+/* Cancel Ticket Page */
+.cancel-ticket-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #282828;
+    width: 600px;
+    border-radius: 10px;
+    padding: 40px;
+    padding-bottom: 60px;
+}
+
+.cancel-ticket-page-header {
+    color: white;
+}
+
+.cancel-ticket-page {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    background-color: #282828;
+    width: 400px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.cancel-ticket-page label {
+    margin-left: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+.cancel-ticket-page input{
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+    width: 81%;
+    padding: 8px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 38px;
+}
+
+.cancel-ticket-page input:hover {
+    border-color: #4ccc;
+    outline: none;
+}
+
+.cancel-ticket-page input:focus {
+    border-color: #4ccc;
+    outline: none;
+}
+
+/* buttons */
+.cancel-ticket-page-buttons {
+    width: 100px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-ticket-page-buttons:hover {
+    background-color: #4ccc;
+}
+
+.cancel-ticket-page-error {
+    color: white;
+}

@@ -1,0 +1,12 @@
+/*Global.css*/
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.page-body {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}

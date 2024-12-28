@@ -1,0 +1,20 @@
+/* CTA */
+.ctabar {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+  }
+  
+ .ctabar {
+    text-decoration: none;
+    font-weight: bold;
+    color:#F2B705;
+    font-size: 16px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .nav-link-admin:hover,
+  .nav-link-user:hover,
+  .nav-link-cancel:hover {
+    color: #4ccc;
+  }

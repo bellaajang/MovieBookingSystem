@@ -1,0 +1,105 @@
+/* Movie Page */
+.movie-header {
+    color: white;
+    padding: 0;
+}
+
+/* Box containing elements */
+.movie-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background-color: black;
+    width: 800px;
+    border-radius: 0px 10px 10px 0px;
+    min-height: 380px;
+    margin-top: 40px;
+    height: auto;
+    color: white;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.movie-page .movie-poster {
+    display: flex;
+    justify-content: left;
+    background-color:black;
+    width: 40%;
+}
+
+.movie-page .movie-poster img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.movie-page .movie-details {
+    background-color: transparent;
+    width: 60%;
+    height: auto;
+    padding: 20px 50px 50px 50px;
+}
+
+.selection-lists {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.selection-lists select {
+    width: auto;
+    padding: 8px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+}
+
+.selection-lists select:hover {
+    border-color: #4ccc;
+    outline: none;
+}
+
+.selection-lists select:focus {
+    border-color: #4ccc;
+    outline: none;
+}
+
+.movie-page-selectors {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Buttons */
+.button-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.select-movie-button {
+    width: auto;
+    margin-top: 0px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.select-movie-button:hover {
+    background-color: #4ccc;
+}
