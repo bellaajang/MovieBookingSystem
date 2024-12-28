@@ -22,7 +22,7 @@ running springboot:
     mvn spring-boot:run
 
 ---------------------------------------------------------------------------------------------------
-
+while running springboot
 running frontend:
 1. cd to frontend directory
     npm install
