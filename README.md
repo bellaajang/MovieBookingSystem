@@ -1,5 +1,5 @@
 # MovieBookingSystem
-This is movie booking website with Java, using springboot to connect frontend and backend.
+This is movie booking website with Java
 
 Prerequisites:
 JDK17 (or higher), maven, Node.js, mySQL
